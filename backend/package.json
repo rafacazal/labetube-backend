@@ -1,0 +1,38 @@
+{
+  "name": "FutureTube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev -r dotenv/config  ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/express": "^4.17.3",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^13.7.7",
+    "@types/uuid": "^7.0.0",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.11",
+    "mysql": "^2.18.1",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^3.1.44",
+    "@types/express": "4.17.2",
+    "@types/jest": "^24.0.25",
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/uuid": "^3.4.6",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
+  }
+}
