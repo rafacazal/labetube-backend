@@ -15,7 +15,7 @@ A proposta é criar um site inspirado no Youtube e suas funcionalidades, onde o 
 > status: 70% concluído 
 
 ## Deploy
-#### > 
+#### > https://us-central1-lubetube-db4e7.cloudfunctions.net/app
 
 ## Como contribuir:
 - Faça um fork desse repositório;
